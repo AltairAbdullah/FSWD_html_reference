@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- html5 "lang attribute" can't be specified more than one -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Elements/Tags Practice Document</title>
+    <link rel="icon" type="image/png" href="images/favicon/home.png"/>
+</head>
+<body>
+
+    <h1>a</h1>
+    <a href="https://www.facebook.com/AltairAbdullah/" target="_blank">Facebook</a>
+
+    <h1>b</h1>
+    <p>I am enjoying learning <b>full stack web development.</b>.</p>
+
+    <h1>abbr</h1>
+    <p><abbr title="International Business Machines Corporation">IBM</abbr> was founded in 1911.</p>
+
+    <h1>address</h1>
+    <address>
+    <a href="mailto:webmaster@example.com">Altair Abdullah</a>.<br> 
+    Visit my page:<br>
+    https://www.facebook.com/AltairAbdullah91
+    </address>
+
+    <h1>area</h1>
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+    <img src="images/content_images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer" target="_blank">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone" target="_blank">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee" target="_blank">
+    </map>
+
+    <h1>article</h1>
+    <article>
+    <h2>Microsoft Windows</h2>
+    <p>Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft.</p>
+    </article>
+
+    <article>
+    <h2>macOS</h2>
+    <p>macOS is a proprietary graphical operating system developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers.</p>
+    </article>
+
+    <article>
+    <h2>Linux</h2>
+    <p>Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.</p>
+    </article>
+
+    <h1>aside</h1>
+    <p>My family and I once visited the Science City in Kolkata. It was amazing! I had a great time there with my family!</p>
+    <aside>
+    <h4>Science City</h4>
+    <p>The Science City of Kolkata is the largest science centre in the Indian subcontinent. It is Managed by National Council of Science Museums, Ministry of Culture, Government of India. It is located at the crossing of Eastern Metropolitan Bypass and J. B. S. Haldane Avenue in East Topsia.</p>
+    </aside>
+
+
+    <h1>audio</h1>
+    <audio src="audio/tone.mp3" controls></audio>
+
+
+    <h1>base</h1>
+    <p><img src="images/content_images/cairo.jpg" width="640" height="" alt="Book"> - </p>
+    <p><a href="tags/tag_base.asp">HTML base tag</a>#</p>
+
+
+
+    <h1>bdi</h1>
+    <p>In the example below, usernames are shown along with the number of points in a contest.</p>
+
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+
+
+    <h1>bdo</h1>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+
+
+    <h1>blockquote</h1>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    "For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally."
+    </blockquote>
+
+
+    <h1>br</h1>
+    <p>Out of the corner of his eyes<br>Biggles saw Dick go overboard<br>and disappear under the foam,<br>but he could do nothing to help him.</p>
+
+
+
+    <h1>button</h1>
+    <button type="button" onclick="alert('Are You A One or A Zero?')">Click Me!</button>
+
+
+
+    <h1>canvas</h1>
+    <canvas id="myCanvas">If you can read this then your browser does not support the canvas tag.</canvas>
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "rgb(176, 196, 222)";
+    ctx.fillRect(0, 0, 80, 100);
+    </script>
+
+
+
+    <h1>cite</h1>
+    <img src="images/content_images/blade_runner.jpg" width="640" height="" alt="Book">
+    <p><cite>Do Androids Dream of Electric Sheep</cite> by Philip K. Dick.</p>
+
+
+    <h1>code</h1>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+
+</body>
+</html>
